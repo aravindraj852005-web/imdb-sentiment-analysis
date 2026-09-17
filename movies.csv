@@ -1,0 +1,22 @@
+
+movie_id,title,year,genre,poster_url
+1,Leo,2023,Action,https://placehold.co/300x450/241442/FFFFFF?text=LEO
+2,Master,2021,Action,https://placehold.co/300x450/241442/FFFFFF?text=MASTER
+3,96,2018,Romance,https://placehold.co/300x450/241442/FFFFFF?text=96
+4,Soorarai Pottru,2020,Drama,https://placehold.co/300x450/241442/FFFFFF?text=SOORARAI+POTTRU
+5,Interstellar,2014,Sci-Fi,https://placehold.co/300x450/241442/FFFFFF?text=INTERSTELLAR
+6,Inception,2010,Sci-Fi,https://placehold.co/300x450/241442/FFFFFF?text=INCEPTION
+7,Kaithi,2019,Action,https://placehold.co/300x450/241442/FFFFFF?text=KAITHI
+8,Vikram,2022,Action,https://placehold.co/300x450/241442/FFFFFF?text=VIKRAM
+9,Thuppakki,2012,Action,https://placehold.co/300x450/241442/FFFFFF?text=THUPPAKKI
+10,Ghilli,2004,Action,https://placehold.co/300x450/241442/FFFFFF?text=GHILLI
+11,Anniyan,2005,Thriller,https://placehold.co/300x450/241442/FFFFFF?text=ANNIYAN
+12,Ratsasan,2018,Thriller,https://placehold.co/300x450/241442/FFFFFF?text=RATSASAN
+13,Jai Bhim,2021,Drama,https://placehold.co/300x450/241442/FFFFFF?text=JAI+BHIM
+14,Asuran,2019,Drama,https://placehold.co/300x450/241442/FFFFFF?text=ASURAN
+15,Kaala,2018,Action,https://placehold.co/300x450/241442/FFFFFF?text=KAALA
+16,Enthiran,2010,Sci-Fi,https://placehold.co/300x450/241442/FFFFFF?text=ENTHIRAN
+17,Avengers Endgame,2019,Action,https://placehold.co/300x450/241442/FFFFFF?text=AVENGERS
+18,The Dark Knight,2008,Action,https://placehold.co/300x450/241442/FFFFFF?text=DARK+KNIGHT
+19,Avatar,2009,Sci-Fi,https://placehold.co/300x450/241442/FFFFFF?text=AVATAR
+20,The Shawshank Redemption,1994,Drama,https://placehold.co/300x450/241442/FFFFFF?text=SHAWSHANK
