@@ -1,22 +1,21 @@
-
 movie_id,title,year,genre,poster_url
-1,Leo,2023,Action,https://placehold.co/300x450/241442/FFFFFF?text=LEO
-2,Master,2021,Action,https://placehold.co/300x450/241442/FFFFFF?text=MASTER
-3,96,2018,Romance,https://placehold.co/300x450/241442/FFFFFF?text=96
-4,Soorarai Pottru,2020,Drama,https://placehold.co/300x450/241442/FFFFFF?text=SOORARAI+POTTRU
-5,Interstellar,2014,Sci-Fi,https://placehold.co/300x450/241442/FFFFFF?text=INTERSTELLAR
-6,Inception,2010,Sci-Fi,https://placehold.co/300x450/241442/FFFFFF?text=INCEPTION
-7,Kaithi,2019,Action,https://placehold.co/300x450/241442/FFFFFF?text=KAITHI
-8,Vikram,2022,Action,https://placehold.co/300x450/241442/FFFFFF?text=VIKRAM
-9,Thuppakki,2012,Action,https://placehold.co/300x450/241442/FFFFFF?text=THUPPAKKI
-10,Ghilli,2004,Action,https://placehold.co/300x450/241442/FFFFFF?text=GHILLI
-11,Anniyan,2005,Thriller,https://placehold.co/300x450/241442/FFFFFF?text=ANNIYAN
-12,Ratsasan,2018,Thriller,https://placehold.co/300x450/241442/FFFFFF?text=RATSASAN
-13,Jai Bhim,2021,Drama,https://placehold.co/300x450/241442/FFFFFF?text=JAI+BHIM
-14,Asuran,2019,Drama,https://placehold.co/300x450/241442/FFFFFF?text=ASURAN
-15,Kaala,2018,Action,https://placehold.co/300x450/241442/FFFFFF?text=KAALA
-16,Enthiran,2010,Sci-Fi,https://placehold.co/300x450/241442/FFFFFF?text=ENTHIRAN
-17,Avengers Endgame,2019,Action,https://placehold.co/300x450/241442/FFFFFF?text=AVENGERS
-18,The Dark Knight,2008,Action,https://placehold.co/300x450/241442/FFFFFF?text=DARK+KNIGHT
-19,Avatar,2009,Sci-Fi,https://placehold.co/300x450/241442/FFFFFF?text=AVATAR
-20,The Shawshank Redemption,1994,Drama,https://placehold.co/300x450/241442/FFFFFF?text=SHAWSHANK
+1,Leo,2023,Action,posters/leo.jpg
+2,Master,2021,Action,posters/master.jpg
+3,96,2018,Romance,posters/96.jpg
+4,Soorarai Pottru,2020,Drama,posters/soorarai_pottru.jpg
+5,Interstellar,2014,Sci-Fi,posters/interstellar.jpg
+6,Inception,2010,Sci-Fi,posters/inception.jpg
+7,Kaithi,2019,Action,posters/kaithi.jpg
+8,Vikram,2022,Action,posters/vikram.jpg
+9,Thuppakki,2012,Action,posters/thuppakki.jpg
+10,Ghilli,2004,Action,posters/ghilli.jpg
+11,Anniyan,2005,Thriller,posters/anniyan.jpg
+12,Ratsasan,2018,Thriller,posters/ratsasan.jpg
+13,Jai Bhim,2021,Drama,posters/jai_bhim.jpg
+14,Asuran,2019,Drama,posters/asuran.jpg
+15,Kaala,2018,Action,posters/kaala.jpg
+16,Enthiran,2010,Sci-Fi,posters/enthiran.jpg
+17,Avengers Endgame,2019,Action,posters/avengers_endgame.jpg
+18,The Dark Knight,2008,Action,posters/the_dark_knight.jpg
+19,Avatar,2009,Sci-Fi,posters/avatar.jpg
+20,The Shawshank Redemption,1994,Drama,posters/the_shawshank_redemption.jpg

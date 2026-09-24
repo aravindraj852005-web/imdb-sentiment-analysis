@@ -1,4 +1,3 @@
-
 import streamlit as st
 import pandas as pd
 import joblib
@@ -20,6 +19,7 @@ create_database()
 
 st.markdown("""
 <style>
+
 .stApp {
     background: #0f1117;
     color: #ffffff;
@@ -32,6 +32,24 @@ st.markdown("""
 [data-testid="stSidebar"] * {
     color: #ffffff !important;
 }
+
+/* Text input and comment box */
+
+textarea {
+    background-color: #ffffff !important;
+    color: #111111 !important;
+    caret-color: #111111 !important;
+}
+
+textarea::placeholder {
+    color: #555555 !important;
+}
+
+input {
+    color: #111111 !important;
+}
+
+/* Hero */
 
 .hero {
     padding: 35px;
@@ -51,6 +69,8 @@ st.markdown("""
     color: #c4bfd5;
     font-size: 17px;
 }
+
+/* Movie card */
 
 .movie-card {
     background: #1b1e29;
@@ -86,6 +106,8 @@ st.markdown("""
     margin-bottom: 20px;
 }
 
+/* Review card */
+
 .review-card {
     background: #1b1e29;
     border-left: 4px solid #8b5cf6;
@@ -93,6 +115,8 @@ st.markdown("""
     border-radius: 12px;
     margin-bottom: 14px;
 }
+
+/* AI sentiment */
 
 .ai-positive {
     background: #123d2a;
@@ -112,11 +136,14 @@ st.markdown("""
     font-weight: bold;
 }
 
+/* Footer */
+
 .footer {
     text-align: center;
     color: #888888;
     padding: 30px;
 }
+
 </style>
 """, unsafe_allow_html=True)
 
@@ -166,7 +193,10 @@ page = st.sidebar.radio(
 )
 
 st.sidebar.markdown("---")
-st.sidebar.info("Powered by NLP & Machine Learning")
+
+st.sidebar.info(
+    "Powered by NLP & Machine Learning"
+)
 
 # ---------------- HEADER ----------------
 
@@ -182,7 +212,7 @@ st.markdown("""
 # =========================================================
 
 if page == "🏠 Home":
-    
+
     # ---------------- DASHBOARD ----------------
 
     total_movies = len(movies_df)
@@ -191,18 +221,21 @@ if page == "🏠 Home":
     dashboard_col1, dashboard_col2, dashboard_col3 = st.columns(3)
 
     with dashboard_col1:
+
         st.metric(
             "🎬 Total Movies",
             total_movies
         )
 
     with dashboard_col2:
+
         st.metric(
             "⭐ Total Reviews",
             total_reviews
         )
 
     with dashboard_col3:
+
         st.metric(
             "🤖 Model Accuracy",
             "88.85%"
@@ -261,7 +294,9 @@ if page == "🏠 Home":
 
     if len(filtered_movies) == 0:
 
-        st.warning("No movies found. Try another search.")
+        st.warning(
+            "No movies found. Try another search."
+        )
 
     else:
 
@@ -271,7 +306,9 @@ if page == "🏠 Home":
 
             with cols[index % 3]:
 
-                movie_id = int(movie["movie_id"])
+                movie_id = int(
+                    movie["movie_id"]
+                )
 
                 db_reviews = get_reviews(movie_id)
 
@@ -279,7 +316,9 @@ if page == "🏠 Home":
                     sample_reviews["movie_id"] == movie_id
                 ]
 
-                ratings = list(csv_reviews["rating"])
+                ratings = list(
+                    csv_reviews["rating"]
+                )
 
                 if db_reviews:
 
@@ -330,19 +369,25 @@ if page == "🏠 Home":
 
         st.markdown("### 🎬")
         st.write("**Choose a Movie**")
-        st.caption("Explore movies and ratings.")
+        st.caption(
+            "Explore movies and ratings."
+        )
 
     with col2:
 
         st.markdown("### ⭐")
         st.write("**Share Your Review**")
-        st.caption("Give ratings and write comments.")
+        st.caption(
+            "Give ratings and write comments."
+        )
 
     with col3:
 
         st.markdown("### 🤖")
         st.write("**AI Sentiment Analysis**")
-        st.caption("Analyze reviews using NLP.")
+        st.caption(
+            "Analyze reviews using NLP."
+        )
 
 # =========================================================
 # MOVIE REVIEWS
@@ -428,7 +473,15 @@ elif page == "⭐ Movie Reviews":
 
         emoji = st.selectbox(
             "Choose Emoji",
-            ["😍", "😊", "🔥", "❤️", "😎", "😢", "😡"]
+            [
+                "😍",
+                "😊",
+                "🔥",
+                "❤️",
+                "😎",
+                "😢",
+                "😡"
+            ]
         )
 
         comment = st.text_area(
@@ -530,7 +583,9 @@ elif page == "🤖 AI Sentiment":
                     unsafe_allow_html=True
                 )
 
-            st.markdown("### 🎯 AI Confidence")
+            st.markdown(
+                "### 🎯 AI Confidence"
+            )
 
             st.progress(
                 min(int(confidence), 100)
@@ -560,7 +615,9 @@ elif page == "📊 Model Performance":
 
     if results_path.exists():
 
-        results_df = pd.read_csv(results_path)
+        results_df = pd.read_csv(
+            results_path
+        )
 
         st.dataframe(
             results_df,
@@ -576,7 +633,9 @@ elif page == "📊 Model Performance":
 
     st.markdown("---")
 
-    st.markdown("### 🧠 Project Technologies")
+    st.markdown(
+        "### 🧠 Project Technologies"
+    )
 
     tech_col1, tech_col2, tech_col3 = st.columns(3)
 
